@@ -1,12 +1,14 @@
+import { Argv } from 'yargs';
+
 export const command = 'init [AppName]';
 export const desc = 'initialize react native project';
-export const builder = function commandBuilder(yargs) {
+export const builder = (yargs: Argv) => {
   return yargs.option('bundleId', {
     describe: 'bundle identifier',
-    default: 'com.ueno.reactnativestarter'
+    default: 'com.ueno.reactnativestarter',
   });
 };
 
-export const handler = function commandHandler() {
+export const handler = () => {
   console.log('TODO');
-}
+};
