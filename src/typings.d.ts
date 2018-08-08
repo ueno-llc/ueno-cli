@@ -16,6 +16,6 @@ declare module 'ink' {
 
   export const h: typeof createElement;
   export function renderToString(tree: JSX.Element): string;
-  export function render(tree: JSX.Element, prevTree?: JSX.Element): JSX.Element;
+  export function render(tree: JSX.Element, prevTree?: JSX.Element): () => void;
   export function mount(tree: JSX.Element, stream: NodeJS.WritableStream): () => void;
 }
