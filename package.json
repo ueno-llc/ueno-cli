@@ -19,6 +19,12 @@
 		"build": "npm run clean && tsc -p tsconfig.prod.json",
 		"test": "npm run build && npm run lint && jest"
 	},
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint",
+      "pre-push": "npm test"
+    }
+  },
 	"files": [
 		"build/*"
 	],
@@ -41,6 +47,7 @@
 		"@types/react-dom": "16.0.7",
 		"@types/yargs": "11.1.1",
 		"babel-jest": "23.4.2",
+		"husky": "1.0.0-rc.13",
 		"jest": "23.4.2",
 		"rimraf": "2.6.2",
 		"ts-jest": "23.1.3",
