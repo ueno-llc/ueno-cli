@@ -15,6 +15,9 @@
     "prefer-type-cast": false,
     "no-floating-promises": false,
     "no-unsafe-any": false,
+    "ordered-imports": false,
+    "completed-docs": false,
+    "no-string-based-set-timeout": false,
 	  "trailing-comma": [
       true,
       {
