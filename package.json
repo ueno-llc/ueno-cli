@@ -1,6 +1,6 @@
 {
 	"name": "ueno-cli",
-	"version": "0.1.7",
+	"version": "0.1.9",
 	"description": "Ueno Command-Line Utility",
 	"license": "MIT",
 	"repository": "ueno-llc/ueno-cli",
