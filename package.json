@@ -13,7 +13,7 @@
 		"node": ">=6"
 	},
 	"scripts": {
-		"prepublish": "npm run build",
+		"prepare": "npm run build",
 		"clean": "rimraf ./build",
 		"lint": "tslint -p tsconfig.json",
 		"build": "npm run clean && tsc -p tsconfig.prod.json",

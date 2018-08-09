@@ -12,7 +12,9 @@
 	  "promise-function-async": false,
 	  "no-void-expression": false,
 	  "no-redundant-jsdoc": false,
-	  "prefer-type-cast": false,
+    "prefer-type-cast": false,
+    "no-floating-promises": false,
+    "no-unsafe-any": false,
 	  "trailing-comma": [
       true,
       {
