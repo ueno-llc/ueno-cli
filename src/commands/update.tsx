@@ -3,7 +3,7 @@ import { h, render } from 'ink';
 import * as Spinner from 'ink-spinner';
 
 export const command = 'update';
-export const desc = 'Update ueno-cli';
+export const desc = 'Update the ueno-cli';
 export const builder = () => null;
 export const handler = async () => {
 
